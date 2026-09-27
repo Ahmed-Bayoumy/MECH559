@@ -96,6 +96,14 @@ Each notebook opens in Colab already runnable — all of them rely only on `nump
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L06/L06_stabilization_and_scaling.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L06_stabilization_and_scaling](L06/L06_stabilization_and_scaling.ipynb) | Demonstrates what goes wrong when Newton's Hessian isn't positive definite and how Hessian modification and variable scaling fix convergence. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L06/L06_trust_region.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L06_trust_region](L06/L06_trust_region.ipynb) | Builds a trust-region subproblem solver and adaptive-radius algorithm from scratch, showing where it succeeds when plain Newton's method fails. |
 
+## Exercises
+
+### MDO
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/Exercises/MDO/SBJ/Ref_SBJ_DMDO.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [Ref_SBJ_DMDO](Exercises/MDO/SBJ/Ref_SBJ_DMDO.ipynb) | Reference notebook for the SBJ multidisciplinary design optimization exercise. |
+
 ## License
 
 See [LICENSE](LICENSE).
