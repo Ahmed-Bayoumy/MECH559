@@ -96,6 +96,34 @@ Each notebook opens in Colab already runnable — all of them rely only on `nump
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L06/L06_stabilization_and_scaling.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L06_stabilization_and_scaling](L06/L06_stabilization_and_scaling.ipynb) | Demonstrates what goes wrong when Newton's Hessian isn't positive definite and how Hessian modification and variable scaling fix convergence. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L06/L06_trust_region.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L06_trust_region](L06/L06_trust_region.ipynb) | Builds a trust-region subproblem solver and adaptive-radius algorithm from scratch, showing where it succeeds when plain Newton's method fails. |
 
+
+### L07 — Linear programming
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L07/L07_lp_formulation_and_basic_solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L07_lp_formulation_and_basic_solutions](L07/L07_lp_formulation_and_basic_solutions.ipynb) | Formulates a linear program from a word problem, converts it to standard form, and enumerates basic solutions by brute force. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L07/L07_simplex_method.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L07_simplex_method](L07/L07_simplex_method.ipynb) | Builds the simplex method from scratch and reproduces the farmer's-problem tableau sequence from the lecture. |
+
+### L08 — Nonlinear programming geometry
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L08/L08_degrees_of_freedom_and_regularity.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L08_degrees_of_freedom_and_regularity](L08/L08_degrees_of_freedom_and_regularity.ipynb) | Explains degrees of freedom, regularity, and the tangent/normal hyperplanes for constrained optimization problems. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L08/L08_lagrangian_and_sosc.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L08_lagrangian_and_sosc](L08/L08_lagrangian_and_sosc.ipynb) | Connects the Lagrangian FONCs with the reduced-gradient method and applies the SOSC to classify stationary points. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L08/L08_reduced_gradient.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L08_reduced_gradient](L08/L08_reduced_gradient.ipynb) | Derives and evaluates the reduced gradient on the course's constrained example and cross-checks against a direct NLP solve. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L08/L08_kkt_conditions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L08_kkt_conditions](L08/L08_kkt_conditions.ipynb) | Introduces the KKT conditions for inequality-constrained problems and shows what fails at a non-regular point. |
+
+### L09 — Nonlinear programming algorithms
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_active_set_method.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_active_set_method](L09/L09_active_set_method.ipynb) | Implements the active-set strategy for constrained optimization and its add/drop working-set rules. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_augmented_lagrangian_method.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_augmented_lagrangian_method](L09/L09_augmented_lagrangian_method.ipynb) | Demonstrates the augmented Lagrangian method and compares it with the plain penalty approach. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_convergence_and_termination.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_convergence_and_termination](L09/L09_convergence_and_termination.ipynb) | Covers convergence rate, termination criteria, and the reporting of constrained optimization runs. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_generalized_reduced_gradient.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_generalized_reduced_gradient](L09/L09_generalized_reduced_gradient.ipynb) | Builds the generalized reduced gradient algorithm and its feasibility restoration step from scratch. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_penalty_and_barrier_methods.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_penalty_and_barrier_methods](L09/L09_penalty_and_barrier_methods.ipynb) | Compares barrier and penalty transformations on the same constrained problem and shows their conditioning tradeoffs. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_sqp.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_sqp](L09/L09_sqp.ipynb) | Develops sequential quadratic programming, including the equality-constrained Newton step and inequality-constrained QP subproblems. |
+
 ## Exercises
 
 ### MDO
@@ -103,6 +131,7 @@ Each notebook opens in Colab already runnable — all of them rely only on `nump
 | | Notebook | Description |
 |---|---|---|
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/Exercises/MDO/SBJ/Ref_SBJ_DMDO.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [Ref_SBJ_DMDO](Exercises/MDO/SBJ/Ref_SBJ_DMDO.ipynb) | Reference notebook for the SBJ multidisciplinary design optimization exercise. |
+
 
 ## License
 
