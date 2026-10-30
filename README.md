@@ -8,6 +8,24 @@
 This repository hosts the Python/Jupyter notebooks used throughout MECH 559. Every notebook can be
 launched directly in Google Colab with no local setup — just click a badge below.
 
+## Table of contents
+
+- [Course description](#course-description)
+- [Course breakdown](#course-breakdown)
+- [Notebooks](#notebooks)
+- [L01 — Introduction: analytical design optimization examples](#l01--introduction-analytical-design-optimization-examples)
+- [L02 — First hands-on optimization example](#l02--first-hands-on-optimization-example)
+- [L03 — Mathematical background and monotonicity analysis](#l03--mathematical-background-and-monotonicity-analysis)
+- [L04 — Data-based models and surrogate optimization](#l04--data-based-models-and-surrogate-optimization)
+- [L05 — Continuous unconstrained optimization theory](#l05--continuous-unconstrained-optimization-theory)
+- [L06 — Algorithms for continuous unconstrained optimization](#l06--algorithms-for-continuous-unconstrained-optimization)
+- [L07 — Linear programming](#l07--linear-programming)
+- [L08 — Nonlinear programming geometry](#l08--nonlinear-programming-geometry)
+- [L09 — Nonlinear programming algorithms](#l09--nonlinear-programming-algorithms)
+- [L10 — Derivative-free and blackbox optimization](#l10--derivative-free-and-blackbox-optimization)
+- [Exercises](#exercises)
+- [License](#license)
+
 ## Course description
 
 This course introduces the theory and application of *systems-oriented* engineering design
@@ -61,7 +79,7 @@ Each notebook opens in Colab already runnable — all of them rely only on `nump
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L03/L03_extreme_value_theorem.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L03_extreme_value_theorem](L03/L03_extreme_value_theorem.ipynb) | Builds the norm → distance → continuity → compact-set chain of reasoning behind the Extreme Value Theorem and the existence of optimizers. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L03/L03_monotonicity_analysis.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L03_monotonicity_analysis](L03/L03_monotonicity_analysis.ipynb) | Uses monotonicity analysis on the 2D cantilever beam problem to predict which constraints bound variables and become active before solving the optimization. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L03/L03_monotonicity_MP1_MP2_concepts.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L03_monotonicity_MP1_MP2_concepts](L03/L03_monotonicity_MP1_MP2_concepts.ipynb) | Illustrates the First and Second Monotonicity Principles (activity, criticality, dominance, consistency, relaxation) on toy problems and a hydraulic cylinder actuator design. |
-| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L03/L03_blackbox_monotonicity_LHS%20%28advanced-optional%29.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L03_blackbox_monotonicity_LHS (advanced-optional)](<L03/L03_blackbox_monotonicity_LHS (advanced-optional).ipynb>) | *(Advanced/optional)* Applies monotonicity-style reasoning to a black-box model (no visible equations or gradients) sampled via Latin Hypercube Sampling. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/colab-version/L03/L03_blackbox_monotonicity_LHS%20%28advanced-optional%29.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="220"/></a> | [L03_blackbox_monotonicity_LHS (advanced-optional)](L03/L03_blackbox_monotonicity_LHS%20(advanced-optional).ipynb) | *(Advanced/optional)* Applies monotonicity-style reasoning to a black-box model (no visible equations or gradients) sampled via Latin Hypercube Sampling. |
 
 ### L04 — Data-based models and surrogate optimization
 
@@ -123,6 +141,20 @@ Each notebook opens in Colab already runnable — all of them rely only on `nump
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_generalized_reduced_gradient.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_generalized_reduced_gradient](L09/L09_generalized_reduced_gradient.ipynb) | Builds the generalized reduced gradient algorithm and its feasibility restoration step from scratch. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_penalty_and_barrier_methods.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_penalty_and_barrier_methods](L09/L09_penalty_and_barrier_methods.ipynb) | Compares barrier and penalty transformations on the same constrained problem and shows their conditioning tradeoffs. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/DEV/L09/L09_sqp.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L09_sqp](L09/L09_sqp.ipynb) | Develops sequential quadratic programming, including the equality-constrained Newton step and inequality-constrained QP subproblems. |
+
+### L10 — Derivative-free and blackbox optimization
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_blackbox_properties_and_smoothness.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_blackbox_properties_and_smoothness](L10/L10_blackbox_properties_and_smoothness.ipynb) | Introduces blackbox optimization problems and demonstrates how function smoothness impacts algorithm behavior and reliability. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_coordinate_search.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_coordinate_search](L10/L10_coordinate_search.ipynb) | Develops coordinate search as a foundational derivative-free optimization method and tests it on representative objectives. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_generalized_pattern_search.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_generalized_pattern_search](L10/L10_generalized_pattern_search.ipynb) | Explains generalized pattern search (GPS), its polling logic, and practical convergence behavior on blackbox test functions. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_heuristics_sa_and_ga.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_heuristics_sa_and_ga](L10/L10_heuristics_sa_and_ga.ipynb) | Compares simulated annealing and genetic algorithms for global search in rugged or multimodal blackbox landscapes. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_mads.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_mads](L10/L10_mads.ipynb) | Presents mesh adaptive direct search (MADS) and highlights its improvements over classical pattern-search strategies. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_nelder_mead.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_nelder_mead](L10/L10_nelder_mead.ipynb) | Covers the Nelder-Mead simplex algorithm, including geometric intuition and step-by-step behavior across common cases. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_nelder_mead_failure_modes.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_nelder_mead_failure_modes](L10/L10_nelder_mead_failure_modes.ipynb) | Reproduces known Nelder-Mead failure modes (nonstationary convergence, saddle behavior, and maximizer misconceptions). |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_nelder_mead_noisy_blackboxes.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_nelder_mead_noisy_blackboxes](L10/L10_nelder_mead_noisy_blackboxes.ipynb) | Examines Nelder-Mead performance under noisy blackbox evaluations and demonstrates robust practical setup choices. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_OMADS_tutorials.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_OMADS_tutorials](L10/L10_OMADS_tutorials.ipynb) | Provides OMADS tutorials for solving single-objective blackbox optimization problems with practical parameter settings. |
 
 ## Exercises
 
