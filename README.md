@@ -23,6 +23,7 @@ launched directly in Google Colab with no local setup — just click a badge bel
 - [L08 — Nonlinear programming geometry](#l08--nonlinear-programming-geometry)
 - [L09 — Nonlinear programming algorithms](#l09--nonlinear-programming-algorithms)
 - [L10 — Derivative-free and blackbox optimization](#l10--derivative-free-and-blackbox-optimization)
+- [L11 — Multidisciplinary design optimization](#l11--multidisciplinary-design-optimization)
 - [Exercises](#exercises)
 - [License](#license)
 
@@ -155,6 +156,15 @@ Each notebook opens in Colab already runnable — all of them rely only on `nump
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_nelder_mead_failure_modes.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_nelder_mead_failure_modes](L10/L10_nelder_mead_failure_modes.ipynb) | Reproduces known Nelder-Mead failure modes (nonstationary convergence, saddle behavior, and maximizer misconceptions). |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_nelder_mead_noisy_blackboxes.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_nelder_mead_noisy_blackboxes](L10/L10_nelder_mead_noisy_blackboxes.ipynb) | Examines Nelder-Mead performance under noisy blackbox evaluations and demonstrates robust practical setup choices. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L10/L10_OMADS_tutorials.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L10_OMADS_tutorials](L10/L10_OMADS_tutorials.ipynb) | Provides OMADS tutorials for solving single-objective blackbox optimization problems with practical parameter settings. |
+
+### L11 — Multidisciplinary design optimization
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L11/L11_multidisciplinary_analysis.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L11_multidisciplinary_analysis](L11/L11_multidisciplinary_analysis.ipynb) | Builds and compares MDA solvers (Gauss-Seidel, Jacobi, and Newton) for the lecture's coupled multidisciplinary system. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L11/L11_monolithic_mdo_mdf_idf.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L11_monolithic_mdo_mdf_idf](L11/L11_monolithic_mdo_mdf_idf.ipynb) | Implements and compares MDF and IDF monolithic MDO formulations, including consistency and evaluation-cost analysis. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L11/L11_atc_nhatc_from_scratch.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L11_atc_nhatc_from_scratch](L11/L11_atc_nhatc_from_scratch.ipynb) | Develops ATC and NHATC distributed MDO schemes from scratch using augmented Lagrangian coordination updates. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L11/L11_DMDO_tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L11_DMDO_tutorial](L11/L11_DMDO_tutorial.ipynb) | Step-by-step DMDO package tutorial for NHATC workflows, from compact-table setup to YAML-driven problem execution. |
 
 ## Exercises
 
