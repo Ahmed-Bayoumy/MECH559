@@ -1,0 +1,21 @@
+# MECH 559 - HW6 environment (the one used to produce the reference results).
+#   conda env create -f environment.yml
+#   conda activate mech559-hw6
+#   python -m ipykernel install --user --name mech559-hw6   # to select it as a Jupyter kernel
+name: mech559-hw6
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - dmdo==2612.1
+      - omads==2612.1
+      - samplerslib==2612.0
+      - numpy==2.5.5
+      - scipy==1.18.1
+      - pandas==2.3.3
+      - pyyaml==6.0.3
+      - matplotlib==3.11.2
+      - torch==2.15.0
+      - ipykernel==7.4.0
