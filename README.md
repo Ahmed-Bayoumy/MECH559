@@ -24,6 +24,7 @@ launched directly in Google Colab with no local setup — just click a badge bel
 - [L09 — Nonlinear programming algorithms](#l09--nonlinear-programming-algorithms)
 - [L10 — Derivative-free and blackbox optimization](#l10--derivative-free-and-blackbox-optimization)
 - [L11 — Multidisciplinary design optimization](#l11--multidisciplinary-design-optimization)
+- [L12 — Multiobjective optimization](#l12--multiobjective-optimization)
 - [Exercises](#exercises)
 - [License](#license)
 
@@ -165,6 +166,15 @@ Each notebook opens in Colab already runnable — all of them rely only on `nump
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L11/L11_monolithic_mdo_mdf_idf.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L11_monolithic_mdo_mdf_idf](L11/L11_monolithic_mdo_mdf_idf.ipynb) | Implements and compares MDF and IDF monolithic MDO formulations, including consistency and evaluation-cost analysis. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L11/L11_atc_nhatc_from_scratch.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L11_atc_nhatc_from_scratch](L11/L11_atc_nhatc_from_scratch.ipynb) | Develops ATC and NHATC distributed MDO schemes from scratch using augmented Lagrangian coordination updates. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L11/L11_DMDO_tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L11_DMDO_tutorial](L11/L11_DMDO_tutorial.ipynb) | Step-by-step DMDO package tutorial for NHATC workflows, from compact-table setup to YAML-driven problem execution. |
+
+### L12 — Multiobjective optimization
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L12/L12_pareto_dominance_and_front.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L12_pareto_dominance_and_front](L12/L12_pareto_dominance_and_front.ipynb) | Introduces Pareto dominance, non-dominated solutions, Pareto sets and fronts, and the hypervolume indicator. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L12/L12_dmulti_mads_from_scratch.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L12_dmulti_mads_from_scratch](L12/L12_dmulti_mads_from_scratch.ipynb) | Implements DMulti-MADS from scratch, including its non-dominated incumbent list, selection rule, and update logic. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L12/L12_dmulti_mads_omads_running_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L12_dmulti_mads_omads_running_example](L12/L12_dmulti_mads_omads_running_example.ipynb) | Solves the lecture's constrained multiobjective running example with OMADS and compares its approximate front with a reference. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L12/L12_mop_gallery.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L12_mop_gallery](L12/L12_mop_gallery.ipynb) | Applies DMulti-MADS to twelve classic biobjective benchmarks: six constrained and six unconstrained. |
 
 ## Exercises
 
