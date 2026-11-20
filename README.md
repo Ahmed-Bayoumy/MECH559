@@ -25,6 +25,8 @@ launched directly in Google Colab with no local setup — just click a badge bel
 - [L10 — Derivative-free and blackbox optimization](#l10--derivative-free-and-blackbox-optimization)
 - [L11 — Multidisciplinary design optimization](#l11--multidisciplinary-design-optimization)
 - [L12 — Multiobjective optimization](#l12--multiobjective-optimization)
+- [L13 — Uncertainty-aware AI models in MDO](#l13--uncertainty-aware-ai-models-in-mdo)
+- [L14 — Optimization under uncertainty](#l14--optimization-under-uncertainty)
 - [Exercises](#exercises)
 - [License](#license)
 
@@ -175,6 +177,21 @@ Each notebook opens in Colab already runnable — all of them rely only on `nump
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L12/L12_dmulti_mads_from_scratch.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L12_dmulti_mads_from_scratch](L12/L12_dmulti_mads_from_scratch.ipynb) | Implements DMulti-MADS from scratch, including its non-dominated incumbent list, selection rule, and update logic. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L12/L12_dmulti_mads_omads_running_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L12_dmulti_mads_omads_running_example](L12/L12_dmulti_mads_omads_running_example.ipynb) | Solves the lecture's constrained multiobjective running example with OMADS and compares its approximate front with a reference. |
 | <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L12/L12_mop_gallery.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L12_mop_gallery](L12/L12_mop_gallery.ipynb) | Applies DMulti-MADS to twelve classic biobjective benchmarks: six constrained and six unconstrained. |
+
+### L13 — Uncertainty-aware AI models in MDO
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L13/L13_uncertainty_aware_models.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L13_uncertainty_aware_models](L13/L13_uncertainty_aware_models.ipynb) | Builds and compares Gaussian-process and deep-ensemble uncertainty models, including aleatoric/epistemic decomposition and calibration checks. |
+
+### L14 — Optimization under uncertainty
+
+| | Notebook | Description |
+|---|---|---|
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L14/L14_uncertainty_propagation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L14_uncertainty_propagation](L14/L14_uncertainty_propagation.ipynb) | Propagates input uncertainty with Monte Carlo and FOSM, and quantifies approximation and convergence behavior. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L14/L14_reliability_index_and_form.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L14_reliability_index_and_form](L14/L14_reliability_index_and_form.ipynb) | Computes reliability index and FORM MPPs, compares against Monte Carlo failure probability, and demonstrates inner-loop reliability sizing. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L14/L14_robust_design_optimization.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L14_robust_design_optimization](L14/L14_robust_design_optimization.ipynb) | Demonstrates mean-variance robust design trade-offs and compares robust vs. nominal designs via failure probability. |
+| <a href="https://colab.research.google.com/github/Ahmed-Bayoumy/MECH559/blob/HEAD/L14/L14_interval_worst_case_optimization.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150"/></a> | [L14_interval_worst_case_optimization](L14/L14_interval_worst_case_optimization.ipynb) | Solves interval/worst-case min-max design problems with nested optimization and compares deterministic vs. worst-case cost. |
 
 ## Exercises
 
